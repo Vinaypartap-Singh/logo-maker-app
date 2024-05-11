@@ -49,10 +49,10 @@ export default function LogoPreview({ downloadIcon }) {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center h-full">
       <div
         id="downloadLogoDiv"
-        className="w-[512px] h-[512px] flex justify-center items-center transition-all"
+        className="w-[512px] h-[512px] flex justify-center items-center"
         style={{
           background: `${storageData?.bgColor}`,
           borderRadius: `${storageData?.bgRounded}px`,
